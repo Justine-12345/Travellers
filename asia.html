@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Travelers</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/asia.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="js/asia.js"></script> 
+	<script src="main.js"></script>  
+	<script src="https://kit.fontawesome.com/6360280a4c.js" crossorigin="anonymous"></script></head>
+	<body>
+
+		<nav class="navbar navbar-default " id="nav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 3px;margin-left: 70px;"><b>Travelers</b></h2></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="navbar-nav" style="float: right; overflow: hidden; margin-top: 15px;"> 
+        <!-- <li class="nav-item"><h2><a href="index.html" class="nav-link" style="color:white; font-family: 'Alfa Slab One', cursive;">Home <span class="sr-only">(current)</span></a></h2></li> -->
+        <!-- <li class="nav-item"><a href="#store" class="nav-link" style="color:white">Store</a></li> -->
+
+
+        <li class="nav-item" style="position: relative; top: -18px;">
+				    <div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent; color: white; border: none;">
+						    <h2 style="font-family: 'Poppins', sans-serif;letter-spacing: 3px;"><b>Continents</b>&nbsp;<span class="caret"></span></h2>
+						  </button>
+									
+						  	<ul class="dropdown-menu" style="position:relative; background:white;margin-top: 25px; z-index: 5; min-width: 130px;">
+						    
+						    <li style="width:80px"><a href="asia.html">Asia</a></li>
+						    <li style="width:80px"><a href="africa.html">Africa</a></li>
+						    <li style="width:80px"><a href="northAmerica.html">North America</a></li>
+						    <li style="width:80px"><a href="southAmerica.html">South America</a></li>
+						    <li style="width:80px"><a href="antartica.html">Antarctica</a></li>
+						    <li style="width:80px"><a href="europe.html">Europe</a></li>
+						    <li style="width:80px"><a href="australia.html">Australia</a></li>
+						    <li role="separator" class="divider" style="width:80px"></li>
+                <li style="width:80px"><a href="summary.html">Summary</a></li>
+						  </ul>
+					
+						</div>
+
+				</li>
+
+
+        <!-- <li class="nav-item"><a href="#Contact" class="nav-link" style="color:white">Contact</a></li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+	<div style="height:130px"></div>
+
+	<h2 style="font-family: 'Poppins', sans-serif; letter-spacing: 3px;margin-left: 70px;text-align: center;margin-right: 90px;">Best Of Asia 
+
+	<button type="button" style="background:inherit; border:none;" data-toggle="popover" title="About Asia" data-content="Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres."><i class="fas fa-globe-asia"></i></button>
+
+	</h2>
+
+<div class="container-fluid">
+ 			
+			<main>
+  <button class="box box1 boxColor1 btn-modal" data-toggle="modal" data-target="#fsModal" style="padding: 0;" data-toggle="tooltip" data-placement="bottom" title="Click To See More ...">
+    <img src="images/Asia_1.jpg" style="height: 100%; object-fit: cover;" class="asiaImg">
+    <span>Angkor Wat</span>
+  </button>
+  <button class="box box2 boxColor2 btn-modal2" data-toggle="modal" data-target="#fsModal2" style="padding: 0;" data-toggle="tooltip" data-placement="bottom" title="Click To See More ...">
+  	<img src="images/Asia_5.jpg" style="height: 100%; object-fit: cover;" class="asiaImg">
+    <span>Boracay</span>
+  </button> 
+  <button class="box box3 boxColor3 btn-modal3" data-toggle="modal" data-target="#fsModal3" style="padding: 0;" data-toggle="tooltip" data-placement="bottom" title="Click To See More ...">
+     <img src="images/Asia_2.jpg" style="height: 100%; object-fit: cover;" class="asiaImg">
+     <span>The Great Wall of China</span>
+  </button>
+</main>
+
+
+<!-- modal -->
+<div id="fsModal" class="modal boxColor1 animated flipInY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content"  style="background-color: black; color: white;">
+      <div class="modal-header">
+        <h1 id="myModalLabel" class="modal-title" style="font-family: 'Poppins', sans-serif;"><b>Ankor Wat, Cambodia</b></h1>
+      </div>
+      <div class="modal-body">
+    		<br><br><br><br>
+        <div class="media col-md-6">
+        	<div class="align-self-center mr-3">
+        	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel" data-slide-to="1" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel" data-slide-to="2" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel" data-slide-to="2" style="margin: 10px;"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" style="height:300px;">
+				    <div class="item active" style="height:300px">
+				      <img src="https://www.indochinatour.com/assets/images/Cambodia-/angkor-wat-movie-banner.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://www.peregrineadventures.com/sites/peregrine/files/styles/low-quality/public/Angkor_Wat_7_0.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://www.thoughtco.com/thmb/zs3SnvVmtICeZdz9jUorquDVb-s=/2120x1192/smart/filters:no_upscale()/GettyImages-546436533-5c66f780c9e77c0001131f88.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+				</div>
+       </div>
+<br>
+				<div class="media-body">
+		        <p class="mb-0" style="text-indent: 50px; line-height: 35px; font-family: 'Poppins', sans-serif; font-size: 18px;">
+							Angkor Wat also known as temple city or city of temples, located in northwest Cambodia, is the largest religious structure in the form of a temple complex in the world by land area, measuring 162.6 hectares. At the center of the temple stands a quincunx of four towers surrounding a central spire that rises to a height of 65 m above the ground. The temple has three rectangular galleries, each raised above the next. It lies within an outer wall 3.6 kilometers long and a moat more than five kilometers long.
+		        </p>
+		    </div>
+      </div>
+      <!-- footer -->
+    </div>
+    <button class="btn btn-secondary trigger" ><i class="fa fa-arrow-up"></i></button>
+  </div>
+</div>
+<!-- modal -->
+
+
+<div id="fsModal2" class="modal boxColor1 animated flipInY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content"  style="background-color: black; color: white;">
+      <div class="modal-header">
+        <h1 id="myModalLabel" class="modal-title" style="font-family: 'Poppins', sans-serif;"><b>Boracay, Philippines</b></h1>
+      </div>
+      <div class="modal-body">
+    		<br><br><br><br>
+        <div class="media col-md-6">
+        	<div class="align-self-center mr-3">
+        	<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel1" data-slide-to="0" class="active" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel1" data-slide-to="1" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel1" data-slide-to="2" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel1" data-slide-to="2" style="margin: 10px;"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" style="height:300px;">
+				    <div class="item active" style="height:300px">
+				      <img src="https://assets2.rappler.com/2021/10/boracay-philippines-file-1635319179581.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://pix10.agoda.net/city/15903/15903-7x3.jpg?s=1920x" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://m.kliknfly.com/web/product/big/201911/a3921aa9d376dcc6ee46785121a78196.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+  			</div>
+      </div>
+<br>	
+			<div class="media-body">
+        <p style="text-indent: 50px; line-height: 35px; font-family: 'Poppins', sans-serif;font-size: 18px;">
+						Boracay is a resort island in the Western Visayas region of the Philippines. It lies 0.8 kilometers off the northwest coast of Panay. Having a total area of 10.32 square kilometers, it is under the jurisdiction of three barangays in Malay, Aklan, which in 2015, had a population of 32,267. The island was administered by the Boracay Inter-agency Task Force during its six-month-long closure in 2018. Boracay is famous for its pristine white beaches, thrilling water activities and great nightlife experiences
+        </p>
+		  </div>
+     </div>
+      <!-- footer -->
+    </div>
+    <button class="btn btn-secondary trigger" ><i class="fa fa-arrow-up"></i></button>
+  </div>
+</div>
+<!-- modal -->
+
+
+<div id="fsModal3" class="modal boxColor1 animated flipInY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content"  style="background-color: black; color: white;">
+      <div class="modal-header">
+        <h1 id="myModalLabel" class="modal-title" style="font-family: 'Poppins', sans-serif;"><b>The Great Wall of China , China</b></h1>
+      </div>
+      <div class="modal-body">
+    		<br><br><br><br>
+        <div class="media col-md-6">
+        	<div class="align-self-center mr-3">
+        	<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel2" data-slide-to="0" class="active" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel2" data-slide-to="1" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel2" data-slide-to="2" style="margin: 10px;"></li>
+				    <li data-target="#myCarousel2" data-slide-to="2" style="margin: 10px;"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" style="height:300px;">
+				    <div class="item active" style="height:300px">
+				      <img src="https://www.worldatlas.com/r/w1200/upload/da/ec/40/shutterstock-363803066.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://lp-cms-production.imgix.net/2019-06/iStock_000052149306Medium.jpg?sharp=10&vib=20&w=1200&auto=compress&fit=crop&fm=auto&h=800" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+
+				    <div class="item">
+				      <img  src="https://www.discoverchina.com/upload/pics/thumbs/089021e1ea7024febfce5d34ef544e5b.jpg" style=" height: 100%; width:100%; object-fit: cover;">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+  			</div>
+      </div>
+<br>
+      <div class="media-body">
+        <p style="text-indent: 50px; line-height: 35px; font-family: 'Poppins', sans-serif;font-size: 18px;">
+						The Great Wall of China is a series of fortifications, totaling more than 13,000 miles in length, that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined together by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).
+        </p>
+      </div>
+     	</div>
+      <!-- footer -->
+    </div>
+    <button class="btn btn-secondary trigger" ><i class="fa fa-arrow-up"></i></button>
+  </div>
+</div>
+<!-- modal -->
+
+</div>
+
+	</body>
+
+
+</html>

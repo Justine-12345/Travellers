@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+body { padding: 0; margin: 0; background:#000000; } 
+.navbar { background:none;
+	      margin-bottom: 0;
+          z-index: 5;
+           position: absolute;
+           width: 100%;
+           border: unset;
+           } 
+.nav-link, .navbar-brand { color: white; cursor: pointer; } 
+
+.nav-link { margin-right: 1em !important; padding-right: 10px;padding-left: 10px; } 
+.nav-link:hover { color: black;
+    background: white;
+    text-decoration: none; } 
+.navbar-collapse { justify-content: flex-end; }
+.nav-item{
+	list-style: none;
+    width: 300px;
+
+}
+
+
+li{
+    list-style: none;
+    width: 100px;
+    margin-top:15px;
+}
+
+.tago{
+	visibility: hidden;
+}
+
+.itemImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+
+}
+
+.carousel-caption{
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 4%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+html,body{
+   height:100%;
+}
+.carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.brandbox{ 
+    padding: 24px;
+    font-size: 20px;
+    color: white;
+
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.brandbox input{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.carbox{
+    /*border: 1px solid white;*/
+   margin-bottom: 100px;
+}
+
+.cardK{
+   /* border: 1px solid white;*/
+    margin-bottom: 30px;
+    width: 100%;
+    height: 250px;
+    color: white;
+}
+
+
+.brandboxActive{
+    position: fixed;
+    top: 10px;
+    width: 285px;
+}
+
+.home{
+    color: black;
+    background-color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.saleCar{
+    width: inherit;
+    height: 150px;
+    object-fit: cover;
+}
+
+small{
+    color: #c5c9c5;
+    position: relative;
+    
+}
+
+h4{
+    height: 50px;
+   
+}
+
+#Up{
+    color: black;
+    text-decoration: none;
+}
+
+
+.row{
+    width: 100%;
+}
+
+#Contact{
+    margin-top: 30px;
+    height: 320px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    
+}
+
+.contactBg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    filter: brightness(70%);
+
+}
+
+.contactInfo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:  -300px;
+    width: fit-content;
+    margin: auto;
+    padding: 24px;
+    background: rgba(0,0,0,.7)
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer small{
+    font-size: 15px;
+    color: gray;
+}
+
+
+.dropdown-menu {
+width: 10px !important;
+
+}
+.carousel-caption{
+    font-family: 'Kalam', cursive; 
+    line-height:80px; 
+    letter-spacing:5px,
+
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption {
+     line-height:50px; 
+  }
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.popover-content{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.popover-title{
+    color: black;
+     font-family: 'Poppins', sans-serif;
+
+}

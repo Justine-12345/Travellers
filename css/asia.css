@@ -1,0 +1,108 @@
+body { margin: 0; background-color: #180053; }
+main { width: 100%; position: relative; overflow: hidden; display: block; height: 500px; margin: auto; font-family: verdana;}
+/**/
+/* Modal Styles */
+html{
+  overflow-y: hidden;
+}
+.modal { width: 100%; height: 100%; }
+.modal-dialog { width: 100%; height: 100%; padding: 20px; margin: 0; }
+.modal-content { height: 100%;  overflow: auto; overflow-y: auto;  }
+.modal-body { height: 100%; }
+.box {
+  display: block; 
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 33%;
+  height: 61vh;
+  float: left;
+  padding: 20px;
+  border: 5px solid #180053;
+  color: #fff;
+   background-size: cover;
+  opacity: 1;
+  transition: width 1s, height 1s, opacity 1s;
+  -webkit-transition: width 1s, height 1s, opacity 1s;
+}
+.box > * { dsplay: block; width: 100%; }
+.box i { font-size: 100px; }
+.box span { position: absolute; bottom: 10px; left: 10px; text-align: left; font-size: 20px; }
+
+.box1 { width: 60%;}
+.box2 { width: 40%; height: 35vh; }
+.box3 { width: 40%; height: 26vh; }
+.box4 { width: 33.33%; left: 0; }
+.box5 { width: 33.33%; right: 0; }
+.box6 { width: 33.33%; right: 0; }
+
+.box * {
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+
+  z-index: 2;
+}
+.box.active::before {   opacity: 0.02;  }
+active * {
+  opacity: 1; 
+}
+.clone { position: absolute; }
+.active { position: absolute; 
+  width: 100%; 
+  height: 100%;
+
+}
+.active1 { width: 0; height: 0; opacity: 0; }
+.trigger {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #8b7fa9;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  z-index: 5;
+  font-size: 25px;
+  color: #fff;
+   transition: width 0.1s, height 1s, opacity 1s, font-size 1s;
+  -webkit-transition: width 0.3s, height 0.3s, opacity 0.3s, font-size 0.3s;
+}
+.trigger:hover {
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+    font-size: 30px;
+    color: #fff;
+}
+.trigger .fa { 
+  position: absolute;
+  top: 4px;
+  left: 4px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.boxColor1 { background-color: #2776ec; }
+.boxColor2 { background-color: #ddca28; }
+.boxColor3 { background-color: #00a100; }
+.boxColor4 { background-color: #af193f; }
+.boxColor5 { background-color: #603cbb; }
+.boxColor6 { background-color: #db552d; }
+
+.box.active article { background: #fff; color: #999;  overflow-y: auto;}
+.box section { position: relative; }
+
+.asiaImg{
+    filter: brightness(70%);
+}
+
+.asiaImg:hover{
+    filter: brightness(100%);
+}
+
+#fsModal{
+    overflow: auto;
+    overflow-y: auto;
+}
+
