@@ -1,6 +1,6 @@
 # Traveller: Explore the Best Attractions Across 7 Continents
 
-> Built with HTML, CSS, and JavaScript
+> Built with HTML, Bootstrap CSS, and JavaScript
 
 Welcome to Traveller, your gateway to discovering the most captivating attractions across the seven continents of the world. Immerse yourself in a visual journey as you explore remarkable landmarks, natural wonders, and cultural treasures from every corner of the globe.
 
